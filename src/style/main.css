@@ -1,0 +1,128 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+
+p {
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  line-height: 180%;
+  color: white;
+  font-size: 1.5em;
+}
+
+strong{
+	font-size: 1.5em;
+	color: #102f85;
+}
+
+table {
+  margin: auto;
+}
+
+ul.style1
+{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  color: white;
+}
+
+ul.style1 li
+{
+	padding: 10px 0px 20px 0px;
+	margin:auto;
+	border-top: 1px solid #102f85;
+}
+
+/** PAGE */
+
+#page {
+	overflow: hidden;
+	height: 26em;
+	padding-top: 10em;
+	margin:auto;
+	background: url(https://firebasestorage.googleapis.com/v0/b/vpgames-6332b.appspot.com/o/VPGame_widelogo.png?alt=media&token=a0ff1bc2-02ea-4ffe-b9e9-ed661c782693)  no-repeat;
+	background-size: cover;
+}
+
+/** WRAPPER */
+
+#featured-wrapper {
+	overflow: hidden;
+	padding: 1em 50px;
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.playerLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100px;
+	height:auto;
+}
+
+.search {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  display: block;
+  font-size: 25px;
+  opacity: 0.65;
+  border-bottom: 3px solid rgb(34, 26, 146);
+  border-radius: 4px;
+  position: relative;
+  top: 150px;
+}
+
+/* Footer */
+
+#footer-content
+{
+  overflow: hidden;
+	padding: 0.1em 0em;
+	color: rgb(255, 255, 255);
+}
+
+#footer-content h2
+{
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+}
+
+#footer-content .button-style
+{
+	color: #FFFFFF !important;
+}
+
+#footer-content #fbox
+{
+  text-align: center;
+  margin: auto;
+  width: 446px;
+}
+
+/* Button Style 1 */
+
+.button-style {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 7px 20px;
+	background: #aa2323;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
