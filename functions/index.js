@@ -3,12 +3,7 @@ const admin = require("firebase-admin");
 const isEqual = require("lodash.isequal");
 
 var config = {
-  apiKey: "AIzaSyAu8wB6Vd37WYyKJEsZSLAjN1f-j-XAkoM",
-  authDomain: "vpgames-6332b.firebaseapp.com",
-  databaseURL: "https://vpgames-6332b.firebaseio.com",
-  projectId: "vpgames-6332b",
-  storageBucket: "vpgames-6332b.appspot.com",
-  messagingSenderId: "398539338661"
+
 };
 
 admin.initializeApp(config);
